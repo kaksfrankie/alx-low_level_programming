@@ -4,7 +4,8 @@
  *
  * Return: Always 0 (success)
  */
-int main(void)
+/*
+ * main function */int main(void)
 {
 	char myStr[] = "\"Programming is like building a multilingual puzzle";
 
