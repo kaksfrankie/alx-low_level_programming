@@ -4,16 +4,25 @@
 *Betty style code for function main
 */int main(void)
 {
-	int x, y;
+	int x, y, i, j;
 
 	for (x = '0'; x <= '9'; x++)
 	{
 		for (y = '0'; y <= '9'; y++)
 		{
-			putchar(x);
-			putchar(y);
-			putchar(',');
-			putchar(' ');
+			for (i = '0'; i <= '9'; i++)
+			{
+				for (j = i+1; j <= '8'; j++)
+				{
+					putchar(x);
+					putchar(y);
+					putchar(' ');
+					putchar(i);
+					putchar(j);
+					putchar(',');
+					putchar(' ');
+				}
+			}
 		}
 	}
 	putchar('\n');
