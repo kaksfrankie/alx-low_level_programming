@@ -13,8 +13,11 @@
 		{
 			putchar(x);
 			putchar(y);
-			putchar(',');
-			putchar(' ');
+			if (x != '8' || y != '9')
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
 	putchar('\n');
