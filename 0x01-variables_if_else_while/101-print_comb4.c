@@ -15,8 +15,11 @@
 				putchar(x);
 				putchar(y);
 				putchar(z);
-				putchar(',');
-				putchar(' ');
+				if (x != '7' || y != '8' || z != '9')
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
