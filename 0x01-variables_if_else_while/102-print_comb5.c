@@ -12,7 +12,7 @@
 		{
 			for (i = '0'; i <= '9'; i++)
 			{
-				for (j = i+1; j <= '8'; j++)
+				for (j = '0'; j <= '9'; j++)
 				{
 					putchar(x);
 					putchar(y);
