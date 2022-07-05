@@ -16,7 +16,7 @@ int pos(int x);
 	}
 	y = a % 10;
 	_putchar(y);
-	return (x);
+	return (y);
 	_putchar('\n');
 }
 /*
