@@ -1,7 +1,7 @@
 #include "main.h"
 int pos(int x);
 int last(int b);
-int twice(int c);
+void twice(int c);
 /*
 *return last digit
 */int print_last_digit(int a)
@@ -29,7 +29,7 @@ int twice(int c);
 }
 /*
 *twice output
-*/int twice(int c)
+*/void  twice(int c)
 {
 	int i;
 
