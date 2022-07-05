@@ -5,7 +5,6 @@ int pos(int x);
 */int print_last_digit(int a)
 {
 	int y;
-	int counter;
 
 	if (a < 0)
 	{
