@@ -6,6 +6,7 @@
 	int x;
 
 	x = a % 10;
-	return (xx);
+	return (x);
+	_putchar(x);
 	_putchar('\n');
 }
