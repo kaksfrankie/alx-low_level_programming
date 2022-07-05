@@ -1,11 +1,12 @@
 #include "main.h"
 int pos(int x);
 int last(int b);
-void twice(int c);
+int twice(int c);
 /*
 *return last digit
 */int print_last_digit(int a)
 {
+	int j, k;
 
 	if (a < 0)
 	{
@@ -15,7 +16,9 @@ void twice(int c);
 	{
 		a = a;
 	}
-	return (twice(last(a)));
+	j = last(a);
+	k = twice(j);
+	return (k);
 	_putchar('\n');
 }
 /*
@@ -29,14 +32,18 @@ void twice(int c);
 }
 /*
 *twice output
-*/void  twice(int c)
+*/int twice(int c)
 {
 	int i;
 
-	for (i = 0; i < 2; i++)
+	if (c != 0)
 	{
-		_putchar(c);
+		i = (c * 10) + c;
+		return (i);
 	}
+	else
+		i = 0 + '0';
+		return (i);
 }
 /*
 *get the absolute value
