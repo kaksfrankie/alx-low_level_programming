@@ -6,7 +6,7 @@
 {
 	char c[] = "_putchar";
 	int i;
-	int size = sizeof c / sizeof c[0];
+	int size = sizeof(c)/ sizeof(c[0]);
 
 	for (i = 0; i < size; i++)
 	{
