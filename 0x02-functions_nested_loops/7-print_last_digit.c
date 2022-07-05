@@ -1,10 +1,10 @@
 #include "main.h"
 int pos(int x);
+int last(int b);
 /*
 *return last digit
 */int print_last_digit(int a)
 {
-	int x, y;
 
 	if (a < 0)
 	{
@@ -14,17 +14,18 @@ int pos(int x);
 	{
 		a = a;
 	}
-	y = a % 10;
-	if (y > 0)
-	{
-		x = (y * 10) + y;
-		return (x);
-	}
-	else
-	{
-		return (00);
-	}
+	last(a);
+	last(a);
 	_putchar('\n');
+}
+/*
+*return last digit
+*/int last(int b)
+{
+	int x;
+
+	x = b % 10;
+	return (x);
 }
 /*
 *get the absolute value
