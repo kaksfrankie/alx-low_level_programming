@@ -16,10 +16,8 @@ int pos(int x);
 		a = a;
 	}
 	y = a % 10;
-	for (counter = 0; counter < 2; counter++)
-	{
-		return (y);
-	}
+	_putchar(y);
+	return (y);
 	_putchar('\n');
 }
 /*
