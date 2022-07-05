@@ -15,7 +15,7 @@ int last(int b);
 		a = a;
 	}
 	last(a);
-	last(a);
+	return (last(a));
 	_putchar('\n');
 }
 /*
