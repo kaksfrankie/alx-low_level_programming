@@ -1,4 +1,5 @@
 #include "main.h"
+int _putchar(char c);
 /*
 *function to print _putchar
 *Return Always 0(success).
@@ -14,4 +15,8 @@
 	}
 	_putchar('\n');
 	return (0);
+}
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
 }
