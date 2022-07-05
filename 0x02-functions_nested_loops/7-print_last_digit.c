@@ -5,6 +5,7 @@ int pos(int x);
 */int print_last_digit(int a)
 {
 	int y;
+	int counter;
 
 	if (a < 0)
 	{
@@ -15,8 +16,10 @@ int pos(int x);
 		a = a;
 	}
 	y = a % 10;
-	_putchar(y);
-	return (y);
+	for (counter = 0; counter < 2; counter++)
+	{
+		return (y);
+	}
 	_putchar('\n');
 }
 /*
