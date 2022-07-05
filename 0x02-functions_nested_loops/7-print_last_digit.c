@@ -22,7 +22,7 @@ int pos(int x);
 	}
 	else
 	{
-		return ("00");
+		return (00);
 	}
 	_putchar('\n');
 }
