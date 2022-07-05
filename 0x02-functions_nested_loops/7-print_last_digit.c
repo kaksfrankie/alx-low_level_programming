@@ -1,6 +1,7 @@
 #include "main.h"
 int pos(int x);
 int last(int b);
+int twice(int c);
 /*
 *return last digit
 */int print_last_digit(int a)
@@ -14,8 +15,7 @@ int last(int b);
 	{
 		a = a;
 	}
-	last(a);
-	return (last(a));
+	return (twice(last(a)));
 	_putchar('\n');
 }
 /*
@@ -26,6 +26,17 @@ int last(int b);
 
 	x = b % 10;
 	return (x);
+}
+/*
+*twice output
+*/int twice(int c)
+{
+	int i;
+
+	for (i = 0; i < 2; i++)
+	{
+		_putchar(c);
+	}
 }
 /*
 *get the absolute value
