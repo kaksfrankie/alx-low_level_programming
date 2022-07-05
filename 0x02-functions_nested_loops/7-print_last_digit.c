@@ -4,7 +4,7 @@ int pos(int x);
 *return last digit
 */int print_last_digit(int a)
 {
-	int y;
+	int x, y;
 
 	if (a < 0)
 	{
@@ -15,8 +15,15 @@ int pos(int x);
 		a = a;
 	}
 	y = a % 10;
-	_putchar(y);
-	return (y);
+	if (y > 0)
+	{
+		x = (y * 10) + y;
+		return (x);
+	}
+	else
+	{
+		return ("00");
+	}
 	_putchar('\n');
 }
 /*
