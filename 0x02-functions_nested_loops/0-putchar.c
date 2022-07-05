@@ -6,11 +6,12 @@
 {
 	char c[] = "_putchar";
 	int i;
+	int size = sizeof c / sizeof c[0];
 
-	for (i = 0; i < sizeof(c); i++)
+	for (i = 0; i < size; i++)
 	{
 		_putchar(c[i]);
 	}
 	_putchar('\n');
-	return (o);
+	return (0);
 }
