@@ -1,7 +1,7 @@
 #include "main.h"
 /*
 *compute the absolute value
-*/int _abs(x)
+*/int _abs(int x)
 {
 	if (x < 0)
 	{
