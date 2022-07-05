@@ -42,8 +42,10 @@ int twice(int c);
 		return (i);
 	}
 	else
+	{
 		i = 0 + '0';
 		return (i);
+	}
 }
 /*
 *get the absolute value
