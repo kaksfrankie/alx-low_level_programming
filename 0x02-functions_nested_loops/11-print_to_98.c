@@ -19,4 +19,5 @@
 		}
 		printf("%d\n", n);
 	}
+	return (n);
 }
