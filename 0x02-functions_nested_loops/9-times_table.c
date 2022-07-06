@@ -11,7 +11,7 @@
 		for (j = 0; j <= 9; j++)
 		{
 			product = i * j;
-			_putchar(product);
+			_putchar(product + '0');
 			_putchar('\n');
 		}
 	}
