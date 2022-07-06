@@ -11,9 +11,33 @@
 		for (j = 0; j <= 9; j++)
 		{
 			product = i * j;
-			_putchar(product + '0');
-			_putchar(',');
+			if (j != 9)
+			{
+				if (product > 9)
+				{
+					_putchar((product / 10) + '0');
+					_putchar((product % 10) + '0');
+				}
+				else
+				{
+					_putchar(product);
+				}
+				_putchar(',');
+				_putchar(' ');
+			}
+			else
+			{
+				if (product > 9)
+				{
+					_putchar((product / 10) + '0');
+					_putchar((product % 10) + '0');
+				}
+				else
+				{
+					_putchar(product);
+				}
+				_putchar('\n');
+			}
 		}
-		_putchar('\n');
 	}
 }
