@@ -12,7 +12,8 @@
 		{
 			product = i * j;
 			_putchar(product + '0');
-			_putchar('\n');
+			_putchar(',');
 		}
+		_putchar('\n');
 	}
 }
