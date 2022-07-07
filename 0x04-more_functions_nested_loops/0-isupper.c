@@ -2,7 +2,7 @@
 
 /**
 *_isupper -Check if the letter is upper
-*@c - value to be checked
+*@c: value to be checked
 *
 *Return: 1 for upper and 0 otherwise
 */
@@ -13,5 +13,6 @@ int _isupper(int c)
 	{
 		return (1);
 	}
+
 	return (0);
 }
