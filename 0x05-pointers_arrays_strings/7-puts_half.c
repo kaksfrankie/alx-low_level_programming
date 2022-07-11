@@ -20,7 +20,7 @@ void puts_half(char *str)
 
 	if (j % 2 == 1)
 	{
-		for (c = ((j - 1) / 2); c < j; c++)
+		for (c = (((j - 1) / 2) + 1); c < j; c++)
 		{
 			_putchar(str[c]);
 		}
