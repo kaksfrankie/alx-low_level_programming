@@ -1,9 +1,8 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
 *string_toupper - changes all lower case to upper case
-*@s: string to be changed
+*@p: string to be changed
 *
 *Return: char
 */
