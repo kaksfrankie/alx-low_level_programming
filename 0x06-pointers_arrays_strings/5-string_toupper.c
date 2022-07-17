@@ -8,7 +8,7 @@
 *Return: char
 */
 
-char *string_toupper(char *s)
+char *string_toupper(char *p)
 {
 	int a = 0;
 
