@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
 			e = argv[i];
 			for (j = 0; j < strlen(e); j++)
 			{
-				if (e[k] < 48 || e[k] > 57)
+				if (e[j] < 48 || e[j] > 57)
 				{
 					printf("Error\n");
 					return (1);
@@ -40,7 +40,7 @@ int main(int argc, char *argv[])
 			}
 
 			sum += atoi(e);
-			e++
+			e++;
 		}
 	}
 
