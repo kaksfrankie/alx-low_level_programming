@@ -1,7 +1,10 @@
 #include "main.h"
-/*
-*compute the absolute value
-*/int _abs(int x)
+/**
+*_abs - computes the avsolute value of an integer
+*@x: the int to check
+*Return: the absolute value of an int
+*/
+int _abs(int x)
 {
 	if (x < 0)
 	{
